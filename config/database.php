@@ -39,6 +39,8 @@ return [
             'prefix' => '',
         ],
 
+        // Database connection for tests.
+
         'mysql' => [
             'driver' => 'mysql',
             'host' => env('DB_HOST', '127.0.0.1'),
